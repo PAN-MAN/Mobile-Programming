@@ -1,0 +1,36 @@
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:background="@color/black"
+        android:layout_x="100px"
+        android:layout_y="300px">
+    </TextView>
+
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@color/teal_700"
+        android:layout_x="150px"
+        android:layout_y="350px">
+    </TextView>
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="@color/teal_700"
+        android:layout_x="400px"
+        android:layout_y="350px">
+    </TextView>
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="50px"
+        android:background="@color/teal_700"
+        android:layout_x="150px"
+        android:layout_y="650px">
+    </TextView>
+
+</AbsoluteLayout>
