@@ -1,0 +1,43 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+        <TextView
+            android:text="First Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:layout_column="1" />
+
+        <EditText
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="Last Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:layout_column="1" />
+
+        <EditText
+            android:layout_width="100sp"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>
