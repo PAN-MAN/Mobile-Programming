@@ -19,18 +19,11 @@
         android:layout_y="350px">
     </TextView>
     <TextView
-        android:layout_width="150px"
-        android:layout_height="150px"
-        android:background="@color/teal_700"
-        android:layout_x="400px"
-        android:layout_y="350px">
-    </TextView>
-    <TextView
-        android:layout_width="400px"
-        android:layout_height="50px"
-        android:background="@color/teal_700"
-        android:layout_x="150px"
-        android:layout_y="650px">
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:background="@color/purple_200"
+        android:layout_x="175px"
+        android:layout_y="375px">
     </TextView>
 
 </AbsoluteLayout>
