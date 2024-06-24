@@ -8,12 +8,14 @@
     tools:context=".ConstraintLayout">
 
     <TextView
+        android:id="@+id/purp"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
         android:background="@color/purple_700"
-        android:id="@+id/purp"
         app:layout_constraintLeft_toRightOf="@id/purp5"
-        app:layout_constraintTop_toBottomOf="@id/purp5"/>
+        app:layout_constraintTop_toBottomOf="@id/purp5" />
 
     <TextView
         android:layout_width="100dp"
@@ -23,18 +25,22 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/teal1"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginLeft="88dp"
         android:background="@color/teal_700"
-        android:id="@+id/teal1"
         app:layout_constraintLeft_toRightOf="@id/purp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="139dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
         android:text="Submit"
         app:layout_constraintTop_toBottomOf="@+id/purp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

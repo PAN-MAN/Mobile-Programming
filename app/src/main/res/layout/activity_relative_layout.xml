@@ -55,5 +55,5 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/black"
         android:id="@+id/Gbox">
-
+    </TextView>
 </RelativeLayout>
