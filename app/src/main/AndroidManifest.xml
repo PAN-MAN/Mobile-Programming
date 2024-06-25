@@ -17,12 +17,16 @@
             android:exported="false">
         </activity>
         <activity
-            android:name=".Saturday_practice"
+            android:name=".Widgets"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Saturday_practice"
+            android:exported="true">
         </activity>
         <activity
             android:name=".RelativeLayout"

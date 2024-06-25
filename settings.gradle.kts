@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "mobile"
 include(":app")
- 
+include(":Android_widgets")
