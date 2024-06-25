@@ -1,43 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
     <TableRow>
-        <TextView
-            android:text="First Name:"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/teal_700"
-            android:layout_column="1" />
-
-        <EditText
-            android:layout_width="200sp"
-            android:layout_height="wrap_content" />
-    </TableRow>
-    <TableRow>
 
         <TextView
-            android:text="Last Name:"
+            android:text="NAME:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_column="1"
             android:background="@color/purple_200"
-            android:layout_column="1" />
+            android:id="@+id/user"/>
 
         <EditText
-            android:layout_width="100sp"
-            android:layout_height="wrap_content" />
-    </TableRow>
-
-    <TableRow
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-        <Button
+            android:id="@+id/editTextName"
+            android:width="200dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:id="@+id/button"
-            android:layout_column="2" />
+            />
+
     </TableRow>
 
+    <TableRow>
+        <TextView
+            android:text="ADDRESS:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:background="@color/purple_200"
+            />
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:width="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW OUTPUT"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/output1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/output2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            />
+    </TableRow>
 </TableLayout>
