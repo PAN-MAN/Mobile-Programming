@@ -4,17 +4,14 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-06-24T02:23:15.309539700Z">
+        <DropdownSelection timestamp="2024-06-26T02:49:10.673027500Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\OMEN\.android\avd\Pixel_8_Pro_API_30.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=c43b4121" />
             </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="Android_widgets">
-        <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
   </component>
