@@ -20,7 +20,7 @@ public class FormActivity extends AppCompatActivity {
 
         // Initialize the spinner
         Spinner spin = findViewById(R.id.spinner);
-        String[] courses = { "Valorant", "League of Legends", "Palworld", "Clash of clans", "PUBG", "GU" };
+        String[] courses = { "Valorant", "League of Legends", "Palworld", "Clash of clans", "PUBG" };
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, courses);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(adapter);
@@ -69,7 +69,7 @@ public class FormActivity extends AppCompatActivity {
                 output2.setText("Address: " + address +
                                 "\nGender: " + gender +
                                 "\nPaisa: " + paisa +
-                                "\nCourse: " + selectedCourse);
+                                "\nGames: " + selectedCourse);
             }
         });
     }
