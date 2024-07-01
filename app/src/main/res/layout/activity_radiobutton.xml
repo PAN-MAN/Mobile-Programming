@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:paddingTop="100px">
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radiob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:layout_column="2"/>
+
+            <RadioButton
+                android:id="@+id/radiob1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_column="3"/>
+
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW"
+            android:layout_column="2"
+            android:onClick="onclickbuttonMethod"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/output1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"/>
+    </TableRow>
+</TableLayout>

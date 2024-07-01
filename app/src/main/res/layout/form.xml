@@ -35,18 +35,64 @@
     </TableRow>
 
     <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:layout_column="1"
+            android:paddingLeft="10dp">
+        </TextView>
         <CheckBox
             android:id="@+id/check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male"
-            android:layout_column="2" />
+            android:layout_column="2"
+            />
         <CheckBox
             android:id="@+id/check2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"
             android:layout_column="3" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAISA:"
+            android:layout_column="1"
+            android:paddingLeft="10dp">
+        </TextView>
+        <CheckBox
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:layout_column="2">
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_column="2">
+        </CheckBox>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Games :"
+            android:layout_column="1">
+        </TextView>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_column="2">
+        </Spinner>
     </TableRow>
 
     <TableRow>
