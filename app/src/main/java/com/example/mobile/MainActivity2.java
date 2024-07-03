@@ -25,6 +25,12 @@ public class MainActivity2 extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, courses);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spin.setAdapter(adapter);
+        //string.xml bata liyera aako yo chai//
+        String[] myarray = getResources().getStringArray(R.array.my_spinner);
+        Spinner mySpinner = findViewById(R.id.spinner2);
+        ArrayAdapter<String> ad = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, myarray);
+        ad.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        mySpinner.setAdapter(ad);
 
         addListenerOnButton();
 
@@ -50,7 +56,11 @@ public class MainActivity2 extends AppCompatActivity {
                 String paisa = "";
 
                 Spinner spin = findViewById(R.id.spinner);
-                String selectedCourse = spin.getSelectedItem().toString();
+                String selectedGame = spin.getSelectedItem().toString();
+
+                Spinner mySpinner = findViewById(R.id.spinner2);
+                String selectedtype = mySpinner.getSelectedItem().toString();
+
 
                 // Determine which CheckBox is checked
                 if (checkMale.isChecked()) {
@@ -58,7 +68,6 @@ public class MainActivity2 extends AppCompatActivity {
                 } else if (checkFemale.isChecked()) {
                     gender = "Female";
                 }
-
                 if (radioButton.isChecked()) {
                     paisa = "Rs. 50 de mero";
                 } else if (radioButton1.isChecked()) {
@@ -70,7 +79,8 @@ public class MainActivity2 extends AppCompatActivity {
                 output2.setText("Address: " + address +
                         "\nGender: " + gender +
                         "\nPaisa: " + paisa +
-                        "\nCourse: " + selectedCourse);
+                        "\nGame: " + selectedGame +
+                        "\nType: "+selectedtype);
             }
         });
     }

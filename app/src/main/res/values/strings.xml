@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">mobile</string>
+    <string-array name="my_spinner">
+        <item>Free</item>
+        <item>Premium</item>
+        <item>Plastic</item>
+    </string-array>
 </resources>
