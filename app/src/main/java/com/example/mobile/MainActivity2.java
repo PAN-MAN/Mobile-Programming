@@ -57,7 +57,7 @@ public class MainActivity2 extends AppCompatActivity {
 
                 Spinner spin = findViewById(R.id.spinner);
                 String selectedGame = spin.getSelectedItem().toString();
-
+                // yo spinner in import wala ho
                 Spinner mySpinner = findViewById(R.id.spinner2);
                 String selectedtype = mySpinner.getSelectedItem().toString();
 
