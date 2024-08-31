@@ -28,11 +28,10 @@
         android:id="@+id/teal1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="88dp"
         android:background="@color/teal_700"
         app:layout_constraintLeft_toRightOf="@id/purp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="139dp" />
+        app:layout_constraintTop_toBottomOf="@+id/purp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:layout_width="wrap_content"

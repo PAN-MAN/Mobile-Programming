@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kayn"
+        android:id="@+id/r_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtName"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/r_image"
+        android:layout_marginTop="10dp"
+        android:text="Name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/txtAddress"
+        android:text="Address"
+        android:layout_toRightOf="@id/r_image"
+        android:layout_below="@id/txtName"/>
+
+
+</RelativeLayout>
